@@ -1,0 +1,20 @@
+.logo-image {
+  background-image: url("https://lh3.googleusercontent.com/pw/ADCreHe1j01WxrUL9K1XmJC1Qw1aYmyUp3VcbvMh3gREv5s6z3hU22ssaotKuqF6pfljFWcbZHhmIQC9sCcQKYiQHbRndGNl0XdfIZ_aViWiDo5V1ku6lbA=w2400");
+  height: 270px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.logo-center {
+  height: 226px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  background-position: center;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

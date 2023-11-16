@@ -1,0 +1,17 @@
+.col-container {
+  display: table;
+  width: 100%;
+}
+
+.col-1 {
+  display: table-cell;
+  padding: 25px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 760px) {
+  .col-1 { 
+    display: block;
+    width: 100%;  
+  }
+}
